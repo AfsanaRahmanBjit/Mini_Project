@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.registration-form {
+  max-width: 400px;
+  margin: 100px auto; 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.registration-input[type="text"],
+.registration-input[type="password"] {
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+p.error {
+  color: rgba(255, 0, 0, 0.808);
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.registration-button[type="submit"] {
+  padding: 10px;
+  background-color: #06908F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-button[type="submit"]:hover {
+  opacity:0.8;
+}
+.registration-button[type="submit"]:active {
+  opacity:0.5;
+}
+
+
+  .show-password-label-sign-up {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: black;
+  }
+  
+
+.show-password-label-sign-up input {
+  margin-right: 5px;
+}

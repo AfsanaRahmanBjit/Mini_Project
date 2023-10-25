@@ -1,0 +1,136 @@
+
+
+.body-style {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(128, 128, 128, 0.2);
+  padding-top: 10%;
+}
+.cover {
+  width: 100%;
+  height: 500px;
+  background-image: url("src/assets/cover-book.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  
+}
+
+.cover h1 {
+  padding-top: 15%;
+  color: white;
+  font-family: Arial;
+  font-size: 50px;
+  
+}
+.search-bar-body-style {
+  width: 100%;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  background-image: url("src/assets/teal.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  background-color: #06908f;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.search-bar {
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 2px solid #06908f;
+
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  width: 50%;
+}
+.search-bar:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.search-bar input {
+  color: black;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.book-list-home {
+  list-style: none;
+  padding: 0;
+}
+.book-container-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.cart-book-container-home {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.cart-container-home {
+  padding-top: 30px;
+}
+.book-style-home {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 400px;
+  margin: 10% 10% 10% 10%;
+}
+.book-style-text-home {
+  padding: 10px;
+}
+.book-style-home:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.book-image-home {
+  width: 120px;
+  height: 180px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.book-info-home {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+.add-to-cart-style {
+  color: white;
+  background-color: #06908f;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart-style:hover {
+  opacity: 0.8;
+}
+.add-to-cart-style:active {
+  opacity: 0.5;
+}
+
+.view-details-button {
+  color: white;
+  background-color: #06908f;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+
+  cursor: pointer;
+}
+
+.view-details-button:hover {
+  opacity: 0.8;
+}
+.view-details-button:active {
+  opacity: 0.5;
+}

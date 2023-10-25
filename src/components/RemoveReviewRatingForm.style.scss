@@ -1,0 +1,52 @@
+
+.remove-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-right: 300px;
+  }
+  
+  .remove-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .remove-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .remove-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .remove-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+ 
+  .remove-container button {
+    background-color: #06908F;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-container button:hover {
+   opacity: 0.8;
+  }
+  .remove-container button:active {
+    opacity: 0.8;
+   }
+  
+  .remove-container p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  

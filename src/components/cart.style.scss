@@ -1,0 +1,24 @@
+.text-style-cart{
+    background-color: #06908F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px 10px 10px;
+    display: inline-block;
+    font-weight: bold;
+    width:30px;
+    height:30px;
+   
+  };
+  
+  .counter-style{
+    vertical-align: super;
+    font-weight: normal;
+   
+  };
+
+  .text-style-cart:hover{
+    opacity: 0.8;
+  }
+  .text-style-cart:active{
+    opacity: 0.5;
+  }

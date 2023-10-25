@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Online-Book-Store-style {
+  padding-top: 8px;
+  color:white;
+}
+
+
+
+
+.header-style {
+  background-color: #06908f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.text-style {
+  color: white;
+  text-decoration: none;
+  padding-top: 8px;
+  margin-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.text-style:hover {
+  background-color: white;
+  color: #06908f;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

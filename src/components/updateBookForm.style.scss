@@ -1,0 +1,57 @@
+.update-book-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-right: 300px;
+}
+
+.update-book-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.update-book-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-book-container div {
+  margin-bottom: 15px;
+}
+
+.update-book-container label {
+  font-weight: bold;
+}
+
+.update-book-container input[type="text"],
+.update-book-container input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.update-book-container button {
+  background-color: #06908f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+
+  cursor: pointer;
+}
+
+.update-book-container button:hover {
+  opacity: 0.8;
+}
+.update-book-container button:active {
+  opacity: 0.5;
+}
+.update-book-container p {
+  color: red;
+  margin-top: 10px;
+}
